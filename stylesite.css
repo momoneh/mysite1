@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{  
+    background-color: antiquewhite;
+    color: cadetblue;
+
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{ 
+    color:darkslategrey;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color:lightslategray;
+}
+
+.picture{
+    width: 250px;
+    border-radius: 20px; 
+}
+
+
+.info{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+@media (max-width: 750px) {
+    .info{
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text{
+    margin-left: 40px;
+
+}
+
+.info-text h4{
+    margin-bottom: 10px;
+}
+
+/*
+a:visited{
+    color: darkslategrey;
+}
+*/
+
+.info p{
+    color: lightslategrey;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+    text-decoration: none;
+    /* text-transform: lowercase; */ 
+}
+
+.container{
+    padding-top: 20px;
+    max-width: 750px;
+    min-width: 300px;
+    margin: auto;
+}
+
+/*
+.social{
+
+    background: bisque;
+    padding: 5pt;
+    border: 5px solid;
+    margin: 10px 5px; 
+}
+*/
+
+.bg-1{ background:burlywood;}
+
+.bg-2{ background:cornsilk;}
+
+.bg-3{ background:gainsboro;}
+
+
+
+.card{
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+.list{
+    padding: 0px 20px;
+    list-style: none;
+}
+
+.table{
+    width: 100%;
+}
+
+.table td{
+    padding-bottom: 10px; 
+}
+
+.table th{
+    color: darkcyan;
+}
+
+.link {
+    list-style: none;
+    padding: 0;
+}
+
+.link li{
+    margin-bottom:10px;
+}
+
+.contact h2{
+    text-align: center;
+}
+
+.form label{
+    display: block;
+    font-size: 14px;
+}
+
+.form input{
+    width: 100%;
+    box-sizing:border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 10px 0px 10px ;
+    outline: none;
+    font-family: inherit;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form{
+    width:50%;
+}
+
+.row > .form:first-child{
+    margin-right: 30px;
+}
+
+.btn{
+    background: cadetblue;
+    padding: 10px 10px;
+    border: none;
+    font-family: inherit;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0,9;
+}
+
+/*
+.position{
+    border: 4px solid;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    background: darkred;
+    position: absolute;
+}
+*/
+
